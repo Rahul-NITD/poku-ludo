@@ -12,4 +12,4 @@ while True:
     
     SCREEN.fill((0,0,0,0))
 
-    pygame.display.update()
+    pygame.display.flip()
