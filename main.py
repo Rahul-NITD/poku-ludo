@@ -35,6 +35,6 @@ while True:
     # Draw
     SCREEN.fill((0,0,0,0))
     SCREEN.blit(dice.DICESURFACE, (15*TILESIZE, 0, dice.WIDTH, dice.HEIGHT))
-
+    SCREEN.blit(board.Board_surface, (0,0,15*TILESIZE , 15*TILESIZE))
     pygame.display.flip()
     CLOCK.tick(FPS)
